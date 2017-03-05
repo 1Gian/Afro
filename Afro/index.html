@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>dnc</title>
+		<!--<link rel="shortcut icon" href="../favicon.ico">-->
+		<link rel="stylesheet" type="text/css" href="css/afro.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">	
+			<!-- Top left-->
+			<div class="left-text " id="left-text">
+				<h2>One Movement</h2>
+				<h2>Many Tribes</h2>
+
+			</div>
+
+			<div class="os-phrases" id="os-phrases">
+				<h2>Afro-fusion</h2>
+				<h2>Dance Workshop</h2>
+				
+			</div>
+
+			<div class="left">
+				<a href="https://www.facebook.com/events/1916568955240017/">
+					<img src="img/fb.jpg" alt="fb"
+					style="width: 42px;height: 42px;">
+				</a>
+
+			</div>
+
+
+		</div>
+
+		<!--cont-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/jquery.lettering.js"></script>
+		<script>
+			$(document).ready(function() {
+				$("#os-phrases > h2").lettering('words').children("span").lettering().children("span").lettering(); 
+			})
+		</script>
+	</body>
+</html>
